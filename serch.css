@@ -1,17 +1,13 @@
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
-  margin: 50px 0;
+  margin: 50px auto;
   width: 800px;
   height: 900px;
-  overflow-y: scroll;
+  overflow: auto;
 }
 
+/* .container > div {
+
+} */
 .serch_bar {
   display: flex;
   align-items: center;
@@ -51,9 +47,8 @@ input {
   align-content: space-around;
   align-self: flex-end;
   justify-content: space-between;
-  height: 1400px;
   box-sizing: border-box;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .user_img {
@@ -143,12 +138,11 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80px;
+  height: 81px;
   width: 800px;
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
   background-color: white;
+  position: sticky;
+  bottom: 0px;
 }
 
 .footer > div {

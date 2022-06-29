@@ -1,0 +1,151 @@
+.container {
+  width: 800px;
+  height: 900px;
+  margin: 50px auto;
+  overflow: auto;
+}
+
+.container > .post {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.container > .post > .bar {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.container > .post > div:nth-child(1) {
+  height: 80px;
+  position: relative;
+}
+
+.container > .post > div:nth-child(1) > div:nth-child(1) {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: 20px;
+  background-image: url("./images/ehsaksqor.jpg");
+  background-size: cover;
+}
+
+.container > .post > div > .user_id {
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.container > .post > div > .icon {
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 30px;
+}
+
+.container > .post > div:nth-child(1) > div:nth-child(3) {
+  background-image: url("./images/3dots.png");
+  position: absolute;
+  right: 0px;
+}
+
+.container > .post > div:nth-child(2) {
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container > .post > div:nth-child(3) {
+  height: 80px;
+  position: relative;
+}
+
+.container > .post > div:nth-child(3) > .icon:nth-child(1) {
+  background-image: url("./images/heart\(e\).png");
+  margin-left: 20px;
+}
+
+.container > .post > div:nth-child(3) > .icon:nth-child(1):active {
+  background-image: url("./images/heart\(f\).png");
+}
+
+.container > .post > div:nth-child(3) > .icon:nth-child(2) {
+  background-image: url("./images/comment.png");
+}
+
+.container > .post > div:nth-child(3) > .icon:nth-child(3) {
+  background-image: url("./images/share.png");
+}
+
+.container > .post > div:nth-child(3) > .icon:nth-child(4) {
+  background-image: url("./images/bookmark.png");
+  position: absolute;
+  right: 0px;
+}
+
+.container > .post > div:nth-child(4) {
+  margin: 20px 0;
+}
+
+.container > .post > div:nth-child(4) > div:nth-child(2) {
+  margin-left: 10px;
+}
+
+#img1 {
+  background-image: url("./images/1.jpg");
+}
+
+#img2 {
+  background-image: url("./images/2.jpg");
+}
+
+#img3 {
+  background-image: url("./images/3.jpg");
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 81px;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.footer div {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.home {
+  background-image: url("./images/house-solid.svg");
+}
+
+.serch {
+  background-image: url("./images/magnifying-glass-solid.svg");
+}
+
+.live_video {
+  background-image: url("./images/film-solid.svg");
+}
+
+.shop {
+  background-image: url("./images/bag-shopping-solid.svg");
+}
+
+.user {
+  border-radius: 50%;
+  border: 3px solid blueviolet;
+  background-image: url(./images/sandol.png);
+  background-size: cover;
+}

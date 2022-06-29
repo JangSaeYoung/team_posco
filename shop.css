@@ -1,19 +1,8 @@
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .container {
-  margin: 50px 0;
+  margin: 50px auto;
   width: 800px;
   height: 900px;
-  /* width: 40vw;
-  height: 100vh; */
-  overflow-y: scroll;
-  border: 1px solid lightgray;
-  box-sizing: border-box;
+  overflow: auto;
 }
 
 .serch_bar {
@@ -47,7 +36,6 @@ input {
   padding: 0 20px;
   height: 80px;
   width: 800px;
-  /* background-color: rgb(188, 66, 66); */
 }
 
 .nav_icon {
@@ -100,6 +88,10 @@ input {
   cursor: pointer;
 }
 
+.button > div:hover {
+  background-color: lightgray;
+}
+
 /* 이미지 */
 .content {
   display: flex;
@@ -107,18 +99,13 @@ input {
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: space-between;
-  height: 1400px;
   box-sizing: border-box;
-  margin-top: 140px;
 }
 
 .user_img {
   position: relative;
   width: 265px;
   height: 278px;
-  /* width: 20vw;
-  height: 20vh; */
-
   box-sizing: border-box;
 }
 
@@ -224,7 +211,6 @@ input {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* background-color: blue; */
   height: 250px;
   width: 1000px;
 }
@@ -269,12 +255,11 @@ input {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 80px;
+  height: 81px;
   width: 800px;
-  position: fixed;
-  bottom: 0;
-  z-index: 1;
   background-color: white;
+  position: sticky;
+  bottom: 0px;
 }
 
 .footer > div {
