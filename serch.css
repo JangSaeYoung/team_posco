@@ -138,51 +138,45 @@ input {
 }
 
 /* 하단  */
+
 .footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70px;
+  height: 80px;
   width: 800px;
   position: fixed;
   bottom: 0;
   z-index: 1;
+  background-color: white;
+}
+
+.footer > div {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .home {
-  width: 50px;
-  height: 50px;
   background-image: url(./images/house-solid.svg);
-  background-repeat: no-repeat;
 }
 
 .serch {
-  width: 50px;
-  height: 50px;
   background-image: url(./images/magnifying-glass-solid.svg);
-  background-repeat: no-repeat;
 }
 
 .live_video {
-  width: 50px;
-  height: 50px;
   background-image: url(./images/film-solid.svg);
-  background-repeat: no-repeat;
 }
 
 .shop {
-  width: 50px;
-  height: 50px;
-  background-image: url(./images//bag-shopping-solid.svg);
-  background-repeat: no-repeat;
+  background-image: url(./images/bag-shopping-solid.svg);
 }
 
 .user {
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
   border: 3px solid blueviolet;
   background-image: url(./images/sandol.png);
-  background-repeat: no-repeat;
   background-size: cover;
 }

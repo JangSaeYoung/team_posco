@@ -19,8 +19,8 @@ body {
   justify-content: space-around;
   height: 70px;
   width: 800px;
-  position: fixed;
-  bottom: 0;
+  position: 0px;
+  bottom: 20%;
   z-index: 1;
 }
 
