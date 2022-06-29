@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin: 50px 0;
+  width: 800px;
+  height: 900px;
+  overflow-y: scroll;
+}
+
+.serch_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 800px;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+input {
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding-left: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: rgb(230, 230, 230);
+}
+
+.icon {
+  background-image: url(./map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+/* 이미지 */
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-self: flex-end;
+  justify-content: space-between;
+  height: 1400px;
+  box-sizing: border-box;
+  margin-top: 70px;
+}
+
+.user_img {
+  position: relative;
+  width: 265px;
+  height: 278px;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.multiplicity {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-image: url(./images/clone-solid.svg);
+}
+
+.video {
+  position: absolute;
+  right: 1;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  background-image: url(./images/film-solid.svg);
+}
+
+/* 이미지 */
+.insta1 {
+  background-image: url(./images/insta1.jpeg);
+}
+
+.insta2 {
+  background-image: url(./images/insta2.jpeg);
+}
+.insta3 {
+  background-image: url(./images/insta3.jpeg);
+}
+.insta4 {
+  background-image: url(./images/insta4.jpeg);
+}
+.insta5 {
+  background-image: url(./images/insta5.jpeg);
+}
+.insta6 {
+  background-image: url(./images/insta6.jpeg);
+}
+.insta7 {
+  background-image: url(./images/dog.jpeg);
+}
+.insta8 {
+  background-image: url(./images/insta8.jpeg);
+}
+.insta9 {
+  background-image: url(./images/insta9.jpeg);
+}
+.insta10 {
+  background-image: url(./images/insta10.jpeg);
+}
+.insta11 {
+  background-image: url(./images/calendar.png);
+}
+
+.insta12 {
+  background-image: url(./images/reptile.png);
+}
+.insta13 {
+  background-image: url(./images/sandol.png);
+}
+.insta14 {
+  background-image: url(./images/selca.jpeg);
+}
+.insta15 {
+  background-image: url(./images/selca.jpeg);
+}
+
+/* 하단  */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  width: 800px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.home {
+  width: 50px;
+  height: 50px;
+  background-image: url(./images/house-solid.svg);
+  background-repeat: no-repeat;
+}
+
+.serch {
+  width: 50px;
+  height: 50px;
+  background-image: url(./images/magnifying-glass-solid.svg);
+  background-repeat: no-repeat;
+}
+
+.live_video {
+  width: 50px;
+  height: 50px;
+  background-image: url(./images/film-solid.svg);
+  background-repeat: no-repeat;
+}
+
+.shop {
+  width: 50px;
+  height: 50px;
+  background-image: url(./images//bag-shopping-solid.svg);
+  background-repeat: no-repeat;
+}
+
+.user {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid blueviolet;
+  background-image: url(./images/sandol.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
