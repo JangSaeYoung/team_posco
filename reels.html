@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link rel="stylesheet" href="reels.css" />
+    <script src="instagram.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div>
+        <span class="reels">Reels</span>
+        <img class="camera" src="./images/camera.png" />
+        <iframe
+          width="800"
+          height="740"
+          src="https://www.youtube.com/embed/6y2SajqI84A?autoplay=1&mute=1&loop=1&modestbranding=1&autohide=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="icon">
+        <img class="heart" src="./images/heart(e)_negative.png" />
+        <img class="chat" src="./images/comment_negative.png" />
+      </div>
+      <div>
+        <div class="name_icon"></div>
+        <div class="contents">
+          bbok.99
+          <br />
+          유한을 무한으로!!!
+        </div>
+      </div>
+      <div class="footer">
+        <div class="home" onclick="movePage('feed.html')"></div>
+        <div class="serch" onclick="movePage('search.html')"></div>
+        <div class="live_video" onclick="movePage('reels.html')"></div>
+        <div class="shop" onclick="movePage('shop.html')"></div>
+        <div class="user" onclick="movePage('user.html')"></div>
+      </div>
+    </div>
+  </body>
+</html>

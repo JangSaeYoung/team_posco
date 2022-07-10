@@ -1,0 +1,51 @@
+.container {
+  margin: 200px auto;
+  width: 700px;
+  height: 600px;
+  border: 3px solid gray;
+}
+
+.container > div {
+  display: flex;
+}
+
+#codingon {
+  width: 150px;
+  height: 150px;
+  margin: 50px 0px 50px 0px;
+}
+
+.name_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 20px 0px 10px 250px;
+  cursor: pointer;
+}
+
+.name_icon > img {
+  width: 60px;
+  height: 60px;
+}
+
+.contents {
+  margin-left: 20px;
+  line-height: 100px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.container > .title {
+  justify-content: center;
+}
+
+.container > .title > .contents {
+  font-size: 70px;
+  line-height: 250px;
+}
+
+.container > .center:hover {
+  transition: 1s;
+  transform: scale(1.3);
+}

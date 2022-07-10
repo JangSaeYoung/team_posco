@@ -1,0 +1,107 @@
+.container {
+  display: grid;
+  margin: 50px auto;
+  width: 800px;
+  height: 900px;
+  grid-template-rows: 80px 660px 80px 80px;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  margin: 7px 10px 0 0;
+}
+
+.container > div > .reels {
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.reels + img {
+  margin: 7px 10px 0 0;
+}
+
+.container > div > .camera {
+  float: right;
+}
+
+.name_icon {
+  margin-left: 10px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-image: url(./images/ehsaksqor.jpg);
+  background-size: cover;
+}
+
+.contents {
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 30px;
+  vertical-align: bottom;
+  color: white;
+}
+
+iframe {
+  z-index: 999;
+}
+
+.heart {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 70px;
+}
+
+.chat {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.icon {
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  width: 800px;
+  position: 0px;
+  bottom: 20%;
+  z-index: 1;
+}
+
+.footer > div {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+}
+
+.home {
+  background-image: url(./images/house-solid.svg);
+}
+
+.serch {
+  background-image: url(./images/magnifying-glass-solid.svg);
+}
+
+.live_video {
+  background-image: url(./images/film-solid.svg);
+}
+
+.shop {
+  background-image: url(./images/bag-shopping-solid.svg);
+}
+
+.user {
+  border-radius: 50%;
+  border: 3px solid blueviolet;
+  background-image: url(./images/ehsaksqor.jpg);
+  background-size: cover;
+}

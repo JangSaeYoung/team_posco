@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Feed</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
     <link rel="stylesheet" href="./feed.css" />
   </head>
-
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="instagram.js"></script>
   <body>
     <div class="container">
       <div class="post">
@@ -22,7 +23,7 @@
         </div>
         <div id="img1"></div>
         <div class="bar">
-          <div class="icon"></div>
+          <div class="icon heart_empty"></div>
           <div class="icon"></div>
           <div class="icon"></div>
           <div class="icon"></div>
@@ -41,7 +42,7 @@
         </div>
         <div class="img" id="img2"></div>
         <div class="bar">
-          <div class="icon"></div>
+          <div class="icon heart_empty"></div>
           <div class="icon"></div>
           <div class="icon"></div>
           <div class="icon"></div>
@@ -60,7 +61,7 @@
         </div>
         <div class="img" id="img3"></div>
         <div class="bar">
-          <div class="icon"></div>
+          <div class="icon heart_empty"></div>
           <div class="icon"></div>
           <div class="icon"></div>
           <div class="icon"></div>
@@ -70,13 +71,12 @@
           <div>친구 쿠키</div>
         </div>
       </div>
-
       <div class="footer">
-        <div class="home" onclick="location.href='feed.html'"></div>
-        <div class="serch"></div>
-        <div class="live_video"></div>
-        <div class="shop" onclick="location.href='shop.html'"></div>
-        <div class="user"></div>
+        <div class="home" onclick="movePage('feed.html')"></div>
+        <div class="serch" onclick="movePage('search.html')"></div>
+        <div class="live_video" onclick="movePage('reels.html')"></div>
+        <div class="shop" onclick="movePage('shop.html')"></div>
+        <div class="user" onclick="movePage('user.html')"></div>
       </div>
     </div>
   </body>

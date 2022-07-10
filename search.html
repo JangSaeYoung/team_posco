@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>serch</title>
-    <link rel="stylesheet" href="serch.css" />
+    <title>Search</title>
+    <link rel="stylesheet" href="search.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
+    <script src="instagram.js"></script>
   </head>
   <body>
     <div class="container">
@@ -74,11 +75,11 @@
         </div>
       </div>
       <div class="footer">
-        <div class="home" onclick="location.href='feed.html'"></div>
-        <div class="serch" onclick="location.href='serch.html'"></div>
-        <div class="live_video"></div>
-        <div class="shop" onclick="location.href='shop.html'"></div>
-        <div class="user"></div>
+        <div class="home" onclick="movePage('feed.html')"></div>
+        <div class="serch" onclick="movePage('search.html')"></div>
+        <div class="live_video" onclick="movePage('reels.html')"></div>
+        <div class="shop" onclick="movePage('shop.html')"></div>
+        <div class="user" onclick="movePage('user.html')"></div>
       </div>
     </div>
   </body>

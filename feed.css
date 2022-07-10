@@ -66,14 +66,19 @@
   position: relative;
 }
 
-.container > .post > div:nth-child(3) > .icon:nth-child(1) {
+.heart_empty {
   background-image: url("./images/heart\(e\).png");
   margin-left: 20px;
 }
 
-.container > .post > div:nth-child(3) > .icon:nth-child(1):active {
+.heart_full {
   background-image: url("./images/heart\(f\).png");
 }
+
+/* .container > .post > div:nth-child(3) > .icon:nth-child(1) {
+  background-image: url("./images/heart\(e\).png");
+  margin-left: 20px;
+} */
 
 .container > .post > div:nth-child(3) > .icon:nth-child(2) {
   background-image: url("./images/comment.png");
@@ -81,6 +86,7 @@
 
 .container > .post > div:nth-child(3) > .icon:nth-child(3) {
   background-image: url("./images/share.png");
+  /* margin-left: 30px; */
 }
 
 .container > .post > div:nth-child(3) > .icon:nth-child(4) {
@@ -146,6 +152,6 @@
 .user {
   border-radius: 50%;
   border: 3px solid blueviolet;
-  background-image: url(./images/sandol.png);
+  background-image: url(./images/ehsaksqor.jpg);
   background-size: cover;
 }
